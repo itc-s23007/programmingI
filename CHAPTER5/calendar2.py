@@ -1,3 +1,10 @@
-print('日 月 火 水 木 金 土')
-print('１ ２ ３ ４ ５ ６ ７')
+import calendar
+
+# 9月のカレンダーを作成
+year = 2023
+month = 9
+
+# カレンダーを文字列で取得
+cal = calendar.month(year, month)
+print(cal)
 
